@@ -3,6 +3,7 @@ body {
     overflow-x: hidden;
     font-family: 'Open Sans', sans-serif;
     color: #505962;
+    /* background-image: url("/img/children.jpg"); */
 }
 
 
@@ -38,14 +39,17 @@ body {
 /*----  Landing Page  -----*/
 
 .home-inner {
-    background-image: url(img/space_001.jpg);
+    height: 800px;
+    background-image: url(img/children.jpg);
+    width: 100%;
+    max-width: 100%;
 }
 
 .caption {
     width: 100%;
     max-width: 100%;
     position: absolute;
-    top: 28%;
+    top: 38%;
     z-index: 1;
     color: white;
     text-transform: uppercase;
@@ -54,7 +58,7 @@ body {
 .caption h1 {
     font-size: 3.8rem;
     font-weight: 700;
-    letter-spacing: .3rem;
+    letter-spacing: .1rem;
     text-shadow: .1rem .1rem .8rem black;
     padding-bottom: 1rem;
 }
@@ -65,6 +69,13 @@ body {
     padding-bottom: 1.6rem;
 }
 
+.btn-lg{
+    border-width: medium;
+    border-radius: 0;
+    padding: .6rem 1.3rem;
+    font-size: 1.1rem;
+    
+}
 
 /*================ BOOTSTRAP BREAK POINTS:
 
