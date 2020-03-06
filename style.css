@@ -39,10 +39,11 @@ body {
 /*----  Landing Page  -----*/
 
 .home-inner {
-    height: 800px;
+    min-height: 800px;
     background-image: url(img/children.jpg);
-    width: 100%;
-    max-width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .caption {
@@ -74,7 +75,7 @@ body {
     border-radius: 0;
     padding: .6rem 1.3rem;
     font-size: 1.1rem;
-    
+
 }
 
 /*================ BOOTSTRAP BREAK POINTS:
